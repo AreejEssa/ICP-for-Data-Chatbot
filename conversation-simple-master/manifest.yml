@@ -1,0 +1,12 @@
+---
+applications:
+- name: conversation-simple-areej.essa-2018June27
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - DataAnalyticsAssistant
+  env:
+    NPM_CONFIG_PRODUCTION: false
+    WORKSPACE_ID: 9b0182c0-fb88-47fb-b43b-384f1a06570a
